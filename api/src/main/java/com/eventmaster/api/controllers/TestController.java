@@ -1,4 +1,4 @@
-package com.github.ihorshulha8.eventmaster;
+package com.eventmaster.api.controllers;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

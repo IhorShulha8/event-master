@@ -7,7 +7,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.0.6</version>
+        <version>2.7.11</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -15,14 +15,15 @@
         <java.version>17</java.version>
     </properties>
 
-    <groupId>com.github.ihorshulha8</groupId>
+    <groupId>com.eventmaster</groupId>
     <artifactId>api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>${project.artifactId}</name>
+    <description>api</description>
 
     <dependencies>
         <dependency>
-            <groupId>com.github.ihorshulha8</groupId>
+            <groupId>com.eventmaster</groupId>
             <artifactId>domain</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -39,6 +40,12 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
+        <dependency>
+            <groupId>org.yaml</groupId>
+            <artifactId>snakeyaml</artifactId>
+            <version>2.0</version>
+        </dependency>
+
     </dependencies>
 
 </project>
